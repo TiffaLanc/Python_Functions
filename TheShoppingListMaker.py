@@ -37,16 +37,16 @@ while True:
 
     action = input("Please select an action: ")
 
-    if action.lower() == "Add item":
+    if action.lower() == "add item":
         add_list(store_trip)
 
-    elif action.lower() == "Remove item":
+    elif action.lower() == "remove item":
         remove_list(store_trip)
 
-    elif action.lower() == "Print list":
+    elif action.lower() == "print list":
         print_list(store_trip)
         
-    elif action.lower() == "Exit":
+    elif action.lower() == "exit":
         print("Thank you for using our list maker!")
         break
     else:
